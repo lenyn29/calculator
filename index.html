@@ -13,14 +13,17 @@
             <div class="screen">
                 <input type="text" placeholder="0" disabled id="screen-result">
             </div>
-            <div class="btn-cal btn-cal-radius btn-clean">
+            <div class="btn-cal btn-cal-radius">
                 <input type="button" value="C" class="clean" onclick="clean()">
             </div>
-            <div class="btn-cal btn-cal-radius del">
-                <input type="button" value="<" onclick="back()">
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="<" class="del" onclick="back()">
             </div>
             <div class="btn-cal btn-cal-radius">
                 <input type="button" value="/" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="*" onclick="getData(this)">
             </div>
             <div class="btn-cal btn-cal-radius">
                 <input type="button" value="7" onclick="getData(this)">
@@ -32,7 +35,7 @@
                 <input type="button" value="9" onclick="getData(this)">
             </div>
             <div class="btn-cal btn-cal-radius">
-                <input type="button" value="*" onclick="getData(this)">
+                <input type="button" value="-" onclick="getData(this)">
             </div>
             <div class="btn-cal btn-cal-radius">
                 <input type="button" value="4" onclick="getData(this)">
@@ -44,7 +47,7 @@
                 <input type="button" value="6" onclick="getData(this)">
             </div>
             <div class="btn-cal btn-cal-radius">
-                <input type="button" value="-" onclick="getData(this)">
+                <input type="button" value="+" onclick="getData(this)">
             </div>
             <div class="btn-cal btn-cal-radius">
                 <input type="button" value="1" onclick="getData(this)">
@@ -55,16 +58,13 @@
             <div class="btn-cal btn-cal-radius">
                 <input type="button" value="3" onclick="getData(this)">
             </div>
-            <div class="btn-cal btn-cal-radius plus">
-                <input type="button" value="+" onclick="getData(this)">
-            </div>
             <div class="btn-cal btn-cal-radius btn-0">
                 <input type="button" value="0" onclick="getData(this)">
             </div>
             <div class="btn-cal btn-cal-radius btn-equal">
                 <input type="button" value="=" class="equal" onclick="calculate()">
             </div>
-            <div class="btn-cal btn-cal-radius punto">
+            <div class="btn-cal btn-cal-radius">
                 <input type="button" value="." onclick="getData(this)">
             </div>
             
