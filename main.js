@@ -19,3 +19,8 @@ function calculate(){
         }, 500)
     }
 }
+
+function back(){
+    let exp = screen.value;
+    screen.value = exp.substring(0,exp.length-1);
+}
